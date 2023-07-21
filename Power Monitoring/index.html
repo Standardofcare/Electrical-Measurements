@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electrical Measurements Web App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    #ip-address-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Electrical Measurements</h1>
+  <div id="ip-address-info">IP Address: <span id="ip-address"></span>, Port: <span id="port"></span></div>
+  <table id="data-table">
+    <tr>
+      <th>Measurement</th>
+      <th>Value</th>
+    </tr>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
